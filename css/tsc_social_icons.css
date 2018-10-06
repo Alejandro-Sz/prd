@@ -1,0 +1,22 @@
+
+/* Flat 3D */
+
+.tsc_social_flat3d { display: inline-block; text-indent: -999em;height:46px; width:47px; text-decoration: none; padding:2px; vertical-align:middle; }
+.tsc_social_flat3d:hover{ opacity:0.9; }
+
+
+.facebook_flat3d{ 
+ display: inline-block;height:46px; width:47px; text-decoration: none; padding:2px; vertical-align:middle;
+background:url(../imgs/facebook-flat3d.png) no-repeat; 
+}
+
+.twitter_flat3d{  display: inline-block;height:46px; width:47px; text-decoration: none; padding:2px; vertical-align:middle;
+background:url(../imgs/twitter-flat3d.png) no-repeat; 
+
+}
+
+.email_flat3d{  display: inline-block;height:46px; width:47px; margin-top:-0.4em; text-decoration: none; padding:0px; vertical-align:middle;
+background:url(../imgs/email_icons.png) no-repeat;
+background-size:contain; 
+
+}

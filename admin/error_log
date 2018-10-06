@@ -1,0 +1,16 @@
+[15-Apr-2014 15:57:46] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home4/prodan/public_html/galerianueva/admin/qamasestatus.php on line 14
+[15-Apr-2014 15:57:46] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'prodan'@'localhost' (using password: NO) in /home4/prodan/public_html/galerianueva/admin/qamasestatus.php on line 15
+[15-Apr-2014 15:57:46] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home4/prodan/public_html/galerianueva/admin/qamasestatus.php on line 15
+[15-Apr-2014 15:57:46] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'prodan'@'localhost' (using password: NO) in /home4/prodan/public_html/galerianueva/admin/qamasestatus.php on line 17
+[15-Apr-2014 15:57:46] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home4/prodan/public_html/galerianueva/admin/qamasestatus.php on line 17
+[22-Apr-2014 15:53:46] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home4/prodan/public_html/galerianueva/admin/actualizar.php on line 63
+[22-Apr-2014 15:54:41] PHP Parse error:  syntax error, unexpected '(', expecting ')' in /home4/prodan/public_html/galerianueva/admin/actualizar.php on line 63
+[22-Apr-2014 16:03:46] PHP Parse error:  syntax error, unexpected T_STRING in /home4/prodan/public_html/galerianueva/admin/actualizar.php on line 210
+[22-Apr-2014 16:04:02] PHP Parse error:  syntax error, unexpected T_STRING in /home4/prodan/public_html/galerianueva/admin/actualizar.php on line 210
+[22-Apr-2014 17:28:41] PHP Fatal error:  Cannot redeclare calculaedad() (previously declared in /home4/prodan/public_html/galerianueva/admin/functions.php:3) in /home4/prodan/public_html/galerianueva/admin/actualizar.php on line 63
+[22-Apr-2014 18:46:15] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home4/prodan/public_html/galerianueva/admin/actualizar.php on line 310
+[22-Apr-2014 18:46:16] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home4/prodan/public_html/galerianueva/admin/actualizar.php on line 310
+[23-Apr-2014 17:28:03] PHP Parse error:  syntax error, unexpected '|' in /home4/prodan/public_html/galerianueva/admin/qamas.php on line 72
+[23-Apr-2014 17:34:14] PHP Parse error:  syntax error, unexpected $end in /home4/prodan/public_html/galerianueva/admin/actualizar.php on line 444
+[23-Apr-2014 18:30:26] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/prodan/public_html/galerianueva/admin/usuarios.php on line 132
+[23-Apr-2014 18:30:28] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/prodan/public_html/galerianueva/admin/usuarios.php on line 132

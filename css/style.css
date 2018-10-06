@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "Roboto";
+    src:url(Roboto-Light.ttf) format("truetype");
+	
+}
+
+body {
+	font-family:Roboto;
+	font-size:16px;
+	
+	
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* Todo el contenido de la pagina */
+#page{
+	width:100%;	
+	margin:0.5em auto 0 auto;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* EL header con la imagen de prodan y los links a paginas sociales ademas del paypal */
+#header{
+	 
+	width:52%;
+	height:10em;
+	position:relative;	
+	
+	border:0px #009 dotted;
+	margin: 0.2em 2em;
+	z-index:1;
+}
+
+#header2{
+	 
+	width:40%;
+	height:10em;
+	position:absolute;	
+	
+	border:1px #009 dotted;
+	margin: -10.3em 48em;
+	
+	 background-color: transparent; border: 4px solid transparent; -moz-border-radius: 7px; -webkit-border-radius: 7px; border-radius: 7px; -moz-box-shadow: 0px 0px 1px #000000; -webkit-box-shadow: 0px 0px 1px #000000; box-shadow: 0px 0px 1px #000000; opacity: 0.9; -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 49); filter: alpha(opacity = 49); 
+	
+}
+
+.home{
+	border:2px #009 dotted;
+	position:absolute; margin-top:4%; margin-left:15%; width:10%; height:60%; text-decoration: none;
+	background:url(../imgs/home.png) no-repeat; background-position:center; background-size:contain; border:0px #FF0000 dotted;
+}.home:hover{
+	opcacity:0.95;
+	}
+	
+.fb{
+	position:absolute; margin-top:4%; margin-left:29%; width:10%; height:60%; text-decoration: none; 
+	background:url(../imgs/fb.png) no-repeat; background-position:center; background-size:contain; border: 0px #FF0000 dotted;
+}.fb:hover{
+	opcacity:0.95;
+	}
+	
+.tw{
+	position:absolute; margin-top:4%; margin-left:43%; width:10%; height:60%; text-decoration: none; 
+	background:url(../imgs/twitter.png) no-repeat; background-position:center; background-size:contain; border: 0px #FF0000 dotted;
+}.tw:hover{
+	opcacity:0.95;
+	}
+
+
+	
+.ml{
+	position:absolute;  margin-top:4%; margin-left:57%; width:10%; height:60%; text-decoration: none; 
+	background:url(../imgs/hotmail.png) no-repeat; background-position:center; background-size:contain; border:0px #FF0000 dotted;
+}.ml:hover{
+	opcacity:0.95;
+	}	
+	
+.yt{
+	position:absolute;  margin-top:4%; margin-left:71%; width:10%; height:60%; text-decoration: none;
+	background:url(../imgs/youtube.png) no-repeat; background-position:center;  background-size:contain; border: 0px #FF0000 dotted;
+}.yt:hover{
+	opcacity:0.95;
+	}			
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/*Opciones de filtrado de contenido */
+
+
+.opc1{
+	margin:2% auto;
+	width:95%; 
+	position:relative;
+	
+	border:0px #666666 solid;
+	z-index:2;
+	
+}
+
+label {position:relative; }
+label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+	background-color: rgba(255, 169, 54, 1); 
+    color:#FFF;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:5px;
+    padding:0 0 2px;
+    border-bottom:1px solid rgba(0,152,255,1);
+    position:absolute;
+    pointer-events:none;
+}
+label:before {
+    content:'';
+    right:3px; top:1px;
+    width:20px; height:20px;
+    background-color: rgba(255, 169, 54, 1); 
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+
+select {
+    width:50%;
+	
+    padding:3px;
+    margin-left: 2%;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 rgba(239, 196, 109, 1), 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 rgba(239, 196, 109, 1), 0 -1px #fff inset;
+    box-shadow: 0 3px 0 rgba(239, 196, 109, 1), 0 -1px #fff inset;
+    background-color: rgba(255, 169, 54, 1); 
+	color:#FFF;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+.simple-input {
+ 
+  width:50%;
+ 
+  border: 4px solid #F1B720;
+  border-radius: 5px;
+  color: #333;
+  transition: all 0.3s ease-out;
+}
+
+.simple-input:hover { border-radius: 8px; }
+.simple-input:focus { 
+  outline: none;
+  border-radius: 8px; 
+  border-color: #F1B720;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* Opciones laterales de que se deba de saber antes de adoptar y pedigre logo */
+#lateral{
+
+	width:21%;
+	height:800px; 
+	position:relative;
+	margin-top:7%;
+	margin-left:1%;
+	
+	border:0px #0C9 solid;
+	
+	z-index:3;
+	
+
+}
+
+/*Antes de Adoptar */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+#contenido{
+
+	width:75%;
+	
+	position:abs;	
+	border:0px #0C9 solid;
+	
+	margin-top:-50.1em;
+	margin-left:25%;
+	
+	
+	border:0x #009 dotted;
+	z-index:4;
+	
+	
+	
+	
+	
+}
+
+
+   
+  .limpiar {
+    border-radius: 8px;
+    box-shadow: 0px -1px 3px rgba(255, 255, 255, 0.5) inset, 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(119, 119, 119);
+    padding: 4px 8px;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.1), 0px 0px 15px rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    background: none repeat scroll 0% 0% rgb(119, 119, 119);
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    position: relative;
+    
+    background: #fcaa36;
+    border-color: #fcaa36;
+
+}
+.limpiar:hover,
+.limpiar:focus {
+	bottom: 1px;
+	box-shadow: 0px -1px 3px rgba(255, 255, 255, 0.5) inset, 0px 3px 2px rgba(0, 0, 0, 0.2);
+	background: none repeat scroll 0% 0% rgb(153, 153, 153);
+	border-color: rgb(153, 153, 153);
+	
+	background: #FF7F09;
+	border-color: #FF7F09;
+}
+
+
+ #contact { 
+     
+   }
+
+#contact fieldset {
+    border: 2px solid #0098ff;;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+#contact legend {
+    border: 2px solid #0098ff;;
+    color: #617797;
+    margin-bottom: 0 !important;
+    padding: 7px 10px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#contact label {
+    display: inline-block;
+    float: left;
+    font-size: 1em;
+    height: 26px;
+    line-height: 26px;
+    width: 275px;
+    
+}
+
+#contact input, #contact textarea, #contact select {
+   
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    font: 1em "Dosis";
+    margin: 5px 5px;
+    padding: 5px;
+    width: 360px;
+    border-radius: 3px;
+}
+
+#contact .button { border-radius: 3px; margin: 5px 20px 10px 155px; }
+
+#contact input:focus, #contact textarea:focus { border: 1px solid #eee; color: #444; background: #fff; }
+
+#contact .error { border: 1px solid #973d3d; background: #f0bebe; color: #a35959; }
+#contact .error:focus { border: 1px solid #eee; color: #a35959; } 
+
+
+.button1 {
+    background: #0066cc;
+        /* Normal State */
+    padding: 4px 15px 7px 15px;
+    width: auto;
+    height: auto;
+    color: #fff;
+   
+    font-weight: bold;
+    font-style: normal;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.50);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.50);
+    border-top: 1px solid rgba(0,0,0,0.001);
+    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    cursor: pointer;
+   }
+    .button1:hover, .button:focus {
+        /* Hover State */
+    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -webkit-animation: glow 1s infinite ease-in-out;
+    cursor: pointer;
+    }
+    .button1:active {
+         /* Active State (clicked on) */
+    padding: 6px 15px 5px 15px;
+    border-top: 1px solid rgba(0,0,0,0.55);
+    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -webkit-animation: none;
+    cursor: pointer !important;
+    }

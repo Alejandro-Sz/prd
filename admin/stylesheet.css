@@ -1,0 +1,147 @@
+/*  */
+
+
+*{
+	font-family: "Trebuchet MS", Arial, Sans-serif;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: transparent;
+	letter-spacing: 0px;
+	word-spacing: 0.08em;
+	line-height: 18px;
+}
+
+body{
+	font-size: 11px;
+	background-color: #fff;
+	color: #777;
+}
+
+#allContent{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 24px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.inner{
+	display: block;
+	padding: 10px;
+}
+
+#alertBoxes{
+	display: block;
+	width: 450px;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.loginBlock{
+	display: block;
+	width: 500px;
+	border: 1px solid #eaeaea;
+	background-color: #fafafa;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.loginBlock form input[type=text], .loginBlock form input[type=password]{
+	display: inline-block;
+	margin: 5px;
+	border: 1px solid #dadada;
+	background-color: #eaeaea;
+	padding: 3px;
+	color: #404040;
+	width: 380px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.loginBlock form button{
+	display: inline-block;
+	margin: 5px;
+	border: 1px solid #dadada;
+	background-color: #eaeaea;
+	padding: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #404040;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+
+
+.timer{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	padding:50px 300px 0px 150px;
+	background-image: url('loader.gif');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.box-info, .box-success, .box-alert, .box-error{
+	clear: both;
+	border-width: 1px;
+	border-style: solid;
+	margin: 10px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-position: 0px 50%;
+	text-align: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.box-info {
+	color: #00529b;
+	background-color: #bde5f8;
+	border-color: #00529b;
+}
+.box-success {
+	color: #4f8a10;
+	background-color: #dff2bf;
+	border-color: #4f8a10;
+}
+.box-alert {
+	color: #9f6000;
+	background-color: #feefb3;
+	border-color: #9f6000;
+}
+.box-error {
+	color: #fff;
+	background-color: #c0392b;
+	border-color: #c0392b;
+}
+
+.nombre{	
+	border:#FFF 0px dotted;
+	text-align: left;
+	margin-left:45%;
+	width:54%;
+	text-align:right;
+	
+}
+
+.session_on{
+	display: block;
+	border:#FFF 0px dotted;
+	text-align: left;
+	margin-left:0%;
+	width:100%;
+	text-align:right;
+	
+}
+
+
+
+
+

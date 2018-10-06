@@ -1,0 +1,123 @@
+@charset "utf-8";
+*{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:0;
+	margin:0; 
+	
+
+	
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}
+.error{
+	background-color: #BC1010;
+	padding: 6px 12px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	margin-left: 16px;
+	margin-top: 6px;
+	position: absolute;
+}
+.error:before{
+	content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+}
+
+#contenedor{
+	width:50%;
+	overflow:auto;
+	margin:auto;
+	margin-top:0px;
+	border:2px solid #C0C0C0;
+	background-color:#F2F2F2;
+	padding-bottom:5px;
+	text-align:left;
+	position:relative;
+	
+}
+
+
+
+
+table{
+	width:75%;
+	margin:auto;
+	
+}
+
+.td-titulo{
+	padding:0.5px 0px 0px 10px;
+	width:20%;
+	
+	color:#FFF; background-color:#2980b9; border-color:#ecf0f1; border-style:solid; border-width:1px;
+}
+
+.td-titulo2{
+	padding:2px 0px 2px 7px;
+	width:25%;
+	
+	color:#FFF; background-color:#3498db; border-color:#ecf0f1; border-style:solid; border-width:1px;
+}
+
+.td-prodan{
+	padding:2px 0px 2px 7px;
+	width:auto;
+	text-align:center;
+	te
+	
+	color:#FFF; background-color:#F39C12; border-color:#ecf0f1; border-style:solid; border-width:1px;
+}
+
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.btn-success {
+    color: #FFF;
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	width:25%;
+}
+
+.btn-danger {
+    color: #FFF;
+    background-color: #D9534F;
+    border-color: #D43F3A;
+}
